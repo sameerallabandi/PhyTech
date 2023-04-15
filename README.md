@@ -1,3 +1,6 @@
+![WhatsApp Image 2023-04-14 at 10 47 16 PM](https://user-images.githubusercontent.com/75690804/232215711-ead46f57-e4ad-4eb3-9e20-995c3891f284.jpeg)
+
+
 # PhyTech
 ### Your one-stop solution for agriculture automation, plant identification, and monitoring insights!
 
@@ -26,3 +29,5 @@ To analyze the collected data, we will use various data science techniques such 
 ##### Live Setup Diagram:
 ![IMG_4828](https://user-images.githubusercontent.com/75690804/232213147-29679003-757f-4f5f-a691-b64d71db6ac2.jpeg)
 
+#### 2. Android App:
+To display the data insights to the user and control the hardware, we will develop an android app. The app will display real-time data on the soil moisture level, temperature, humidity, trigger level and pump status. The app will also display graphs and charts to visualize the change in water usage over different seasons. The user can use this data to adjust the watering process for their plants or to monitor the health of their plants.
