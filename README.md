@@ -11,5 +11,14 @@ In addition to the watering process, the system will also collect data on temper
  
 To analyze the collected data, we will use various data science techniques such as data visualization and statistical analysis. Data visualization techniques will help us to understand the relationship between soil moisture levels, temperature, and humidity. We can use statistical analysis to determine the optimal moisture level for each plant and adjust the watering process accordingly.
 
+##### Parts Used:
+1. Arduin Nano 33 iot
+2. DHT 11 - Temperature and Humidity sensor
+3. Capacitive Soil Moisture Sensor
+4. L293D Motor Driver
+5. 9V Battery
+6. 9V Water pump
+
+##### Live Setup Diagram:
 ![IMG_4828](https://user-images.githubusercontent.com/75690804/232213147-29679003-757f-4f5f-a691-b64d71db6ac2.jpeg)
 
