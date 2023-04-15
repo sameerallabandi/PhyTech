@@ -1,4 +1,5 @@
 ![WhatsApp Image 2023-04-14 at 10 47 16 PM](https://user-images.githubusercontent.com/75690804/232215711-ead46f57-e4ad-4eb3-9e20-995c3891f284.jpeg)
+![WhatsApp Image 2023-04-14 at 10 47 15 PM](https://user-images.githubusercontent.com/75690804/232216346-0f076efc-4441-45cb-a1b1-138935bdac50.jpeg)
 
 
 # PhyTech
@@ -31,3 +32,6 @@ To analyze the collected data, we will use various data science techniques such 
 
 #### 2. Android App:
 To display the data insights to the user and control the hardware, we will develop an android app. The app will display real-time data on the soil moisture level, temperature, humidity, trigger level and pump status. The app will also display graphs and charts to visualize the change in water usage over different seasons. The user can use this data to adjust the watering process for their plants or to monitor the health of their plants.
+
+#### 3. Plant Identifying CNN:
+To assist smaller scale plant parents, we will also integrate a plant identifying classifier model. This feature will allow users to upload an image of their plant to the app and get a short description of plant care details. The plant identifying classifier model will use a CNN to identify the plant species and provide information on how to care for that specific plant. This will be especially helpful for new plant owners who may not be familiar with the specific care requirements for their plants. This model is hosted on the GCloud AMD compute engine.
