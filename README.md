@@ -1,4 +1,3 @@
-![WhatsApp Image 2023-04-14 at 10 47 16 PM](https://user-images.githubusercontent.com/75690804/232215711-ead46f57-e4ad-4eb3-9e20-995c3891f284.jpeg)
 ![WhatsApp Image 2023-04-14 at 10 47 15 PM](https://user-images.githubusercontent.com/75690804/232216346-0f076efc-4441-45cb-a1b1-138935bdac50.jpeg)
 
 
