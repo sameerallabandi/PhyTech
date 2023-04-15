@@ -11,4 +11,5 @@ In addition to the watering process, the system will also collect data on temper
  
 To analyze the collected data, we will use various data science techniques such as data visualization and statistical analysis. Data visualization techniques will help us to understand the relationship between soil moisture levels, temperature, and humidity. We can use statistical analysis to determine the optimal moisture level for each plant and adjust the watering process accordingly.
 
-![IMG_4828](https://user-images.githubusercontent.com/75690804/232212705-d4df0e13-e096-4a76-a82c-e2636153e2e8.jpeg)
+![IMG_4828](https://user-images.githubusercontent.com/75690804/232213147-29679003-757f-4f5f-a691-b64d71db6ac2.jpeg)
+
