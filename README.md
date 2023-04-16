@@ -70,6 +70,16 @@ The model is hosted on GCP AMD compute engine.
 - Analytics page to display the response from the IOT device. Only the text response has been setup. charts and designs are still pending.
 
 3. Plant Identifying CNN model:
+- Methdology: 
+In the proposed method we have integrated a CNN model for plant classification. In the following model we scraped data of the 10 most common household plants, 3515 images were used for training and 386 images were used as test data. Before moving onto creating a model, a few preprocessing tasks were required. As the images were scraped from the internet, the images can be of different file formats. In order to get an accurate model we converted each image to a .jpeg file with the help of Python's in-built OS library (This is done as tensorflow only supports .jpeg,.bmp,.png files). Further, we checked for corrupted file formats by converting each image to a binary formmat and decode the imagee. If corrupted file formats are present, the image is removed from the file path. Further, data augmentation operations were performed in order to get more data and create an accurate model.
+
+The model has 6 layers, 3 convolutional layers, a flattening layer and 2 dense layers. The model uses 'he_uniform' weight initialization method in order to make sure the weights are neither too small or too big. In the initial iterations of the model, the model seemed to get a very high accuracy(80%-90%), however when visualizing the accuracy and losses, the data was overfitted. In order to resolve this issue a L1 kernel regularizer was used with each layer and batch normalization layers were used.
+
+In the app being created, the model would be used to predict what plant it is. The model is pushed to the AMD instance and with the following results, the app displays information on how to maintain the plant. Further, this is attatched to an IOT device that checks for soil moisture, humidity and temperature and these metrics will be displayed in the app
+
+- Results: 
+The following model for classification is able to get an accuracy of 60.7%. This is due to the low amounts of data we have used. We are looking to further improve the model by scraping for more images on the internet. However, although the accuracy is low, when using it for classification it seems to be making accurate predictions.
+
 - model is able to predict plant classes.
 - accuracy needs to be improved.
 
