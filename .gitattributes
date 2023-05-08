@@ -1,1 +1,2 @@
 Plant-Classification-Model filter=lfs diff=lfs merge=lfs -text
+/Users/haseeb/Code/PhyTech/repo/PhyTech/Plant-Disease-Detection filter=lfs diff=lfs merge=lfs -text
