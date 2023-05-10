@@ -1,0 +1,4 @@
+#define SECRET_FIREBASE_HOST ""
+#define SECRET_FIREBASE_AUTH ""
+#define SECRET_SSID ""
+#define SECRET_OPTIONAL_PASS ""
